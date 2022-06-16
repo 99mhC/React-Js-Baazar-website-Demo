@@ -1,0 +1,224 @@
+.kidscardSection_1{
+    background-color:whitesmoke;
+    width:100%;
+    height:500px;
+    /* display: flex; */
+}
+.kidscard_1{
+    background-color:mintcream;
+    width:22%;
+    height:400px;
+    float: left;
+    margin: 10px;
+    
+}
+.kidscard_2{
+    background-color:mintcream;
+    width:22%;
+    height:400px;
+    float: left;
+    margin: 10px;
+}
+.kidscard_3{
+    background-color:mintcream;
+    width:22%;
+    height:400px;
+    float: left;
+    margin: 10px;
+}
+.kidscard_4{
+    background-color:mintcream;
+    width:22%;
+    height:400px;
+    float: left;
+    margin: 10px;
+}
+
+img{
+    width:100%;
+    height:250px;
+
+}
+.kidsoffer{
+    background-color:deeppink;
+    padding:5px 10px;
+    
+    font-weight: bold;
+    color:wheat;
+    border-radius: 0.2rem;
+    
+}
+.kidsoffer_1{
+    color:deeppink;
+}
+@media (max-width:360px) {
+    .kidscardSection_1{
+    background-color:whitesmoke;
+    width:100%;
+    height:420px;
+    
+}
+
+.kidscard_1{
+    background-color:mintcream;
+    width:50%;
+    height:400px;
+    float: left;
+    margin: 0px;
+}
+.kidscard_2{
+    background-color:mintcream;
+    width:50%;
+    height:400px;
+    float: left;
+    margin: 0px;
+}
+.kidscard_3{
+    background-color:mintcream;
+    width:50%;
+    height:400px;
+    float: left;
+    margin: 0px;
+}
+.kidscard_4{
+    background-color:mintcream;
+    width:50%;
+    height:400px;
+    float: left;
+    margin: 0px;
+}
+.kidscurrntprize{
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding-top: 10px;
+}
+h1{
+    font-size:1rem;
+}
+img{
+    width:100%;
+    height:200px;
+
+}
+.kidsoffer_1{
+    font-size:0.8rem;
+    font-weight: bold;
+}
+
+    
+}
+
+@media (max-width:375px) {
+    .kidscardSection_1{
+    background-color:whitesmoke;
+    width:100%;
+    height:420px;
+    
+}
+
+.kidscard_1{
+    background-color:mintcream;
+    width:50%;
+    height:400px;
+    float: left;
+    margin: 0px;
+}
+.kidscard_2{
+    background-color:mintcream;
+    width:50%;
+    height:400px;
+    float: left;
+    margin: 0px;
+}
+.kidscard_3{
+    background-color:mintcream;
+    width:50%;
+    height:400px;
+    float: left;
+    margin: 0px;
+}
+.kidscard_4{
+    background-color:mintcream;
+    width:50%;
+    height:400px;
+    float: left;
+    margin: 0px;
+}
+.kidscurrntprize{
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding-top: 10px;
+}
+h1{
+    font-size:1rem;
+}
+img{
+    width:100%;
+    height:200px;
+
+}
+.kidsoffer_1{
+    font-size:0.8rem;
+    font-weight: bold;
+}
+
+    
+}
+
+@media (max-width:414px) {
+    .kidscardSection_1{
+    background-color:whitesmoke;
+    width:100%;
+    height:420px;
+    
+}
+
+.kidscard_1{
+    background-color:mintcream;
+    width:50%;
+    height:400px;
+    float: left;
+    margin: 0px;
+}
+.kidscard_2{
+    background-color:mintcream;
+    width:50%;
+    height:400px;
+    float: left;
+    margin: 0px;
+}
+.kidscard_3{
+    background-color:mintcream;
+    width:50%;
+    height:400px;
+    float: left;
+    margin: 0px;
+}
+.kidscard_4{
+    background-color:mintcream;
+    width:50%;
+    height:400px;
+    float: left;
+    margin: 0px;
+}
+.kidscurrntprize{
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding-top: 10px;
+}
+h1{
+    font-size:1rem;
+}
+img{
+    width:100%;
+    height:200px;
+
+}
+.kidsoffer_1{
+    font-size:0.8rem;
+    font-weight: bold;
+}
+
+    
+}
+

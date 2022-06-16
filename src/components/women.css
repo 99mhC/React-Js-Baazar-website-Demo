@@ -1,0 +1,445 @@
+.womancardSection_1{
+    background-color:whitesmoke;
+    width:100%;
+    height:500px;
+    /* display: flex; */
+}
+.womancard_1{
+    background-color:mintcream;
+    width:22%;
+    height:450px;
+    float: left;
+    margin: 10px;
+    
+}
+.womancard_2{
+    background-color:mintcream;
+    width:22%;
+    height:450px;
+    float: left;
+    margin: 10px;
+}
+.womancard_3{
+    background-color:mintcream;
+    width:22%;
+    height:450px;
+    float: left;
+    margin: 10px;
+}
+.womancard_4{
+    background-color:mintcream;
+    width:22%;
+    height:450px;
+    float: left;
+    margin: 10px;
+}
+
+img{
+    width:100%;
+    height:250px;
+
+}
+.womenoffer{
+    background-color:deeppink;
+    padding:5px 10px;
+    
+    font-weight: bold;
+    color:wheat;
+    border-radius: 0.2rem;
+    
+}
+.womenoffer_1{
+    color:deeppink;
+}
+
+/* favoutite  */
+
+label {
+    background-color: mintcream;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 10px 15px 10px 10px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    color: black;
+   }
+   
+   input {
+    display: none;
+   }
+   
+   input:checked + label svg {
+    fill: hsl(0deg 100% 50%);
+    stroke: hsl(0deg 100% 50%);
+    animation: heartButton 1s;
+   }
+   
+   @keyframes heartButton {
+    0% {
+     transform: scale(1);
+    }
+   
+    25% {
+     transform: scale(1.3);
+    }
+   
+    50% {
+     transform: scale(1);
+    }
+   
+    75% {
+     transform: scale(1.3);
+    }
+   
+    100% {
+     transform: scale(1);
+    }
+   }
+   
+   input + label .action {
+    position: relative;
+    overflow: hidden;
+    display: grid;
+   }
+   
+   input + label .action span {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    transition: all .5s;
+   }
+   
+   input + label .action span.option-1 {
+    transform: translate(0px,0%);
+    opacity: 1;
+   }
+   
+   input:checked + label .action span.option-1 {
+    transform: translate(0px,-100%);
+    opacity: 0;
+   }
+   
+   input + label .action span.option-2 {
+    transform: translate(0px,100%);
+    opacity: 0;
+   }
+   
+   input:checked + label .action span.option-2 {
+    transform: translate(0px,0%);
+    opacity: 1;
+   }
+  
+/* seeoffer  */
+
+/* From uiverse.io by @victoryamaykin */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    height: 34px;
+   }
+   
+   .switch input {
+    display: none;
+   }
+   
+   .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: red;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+   }
+   
+   .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+   }
+   
+   input:checked + .slider {
+    background-color: deeppink;
+   }
+   
+   input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+   }
+   
+   input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(85px);
+   }
+   
+   /*------ ADDED CSS ---------*/
+   .slider:after {
+    content: 'SEE OFFER';
+    color: white;
+    display: block;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    font-size: 10px;
+    font-family: Verdana, sans-serif;
+   }
+   
+   input:checked + .slider:after {
+    content: '60% OFF';
+   }
+   
+   /*--------- END --------*/
+
+   /* share button  */
+
+/* From uiverse.io by @fanishah */
+.button {
+    font-family: inherit;
+    font-weight: 400;
+    background: #f2295b;
+    color: white;
+    padding: 0.35em 0;
+    font-size: 17px;
+    border: none;
+    border-radius: 0.7em;
+    letter-spacing: 0.08em;
+    position: relative;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 2.1em;
+    padding-left: 3em;
+    padding-right: 0.7em;
+   }
+   
+   .button .icon {
+    background: #fff;
+    margin-right: 1em;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.5em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0.3em;
+    transition: all .7s;
+   }
+   
+   .shere {
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-left: 4px;
+   }
+   
+   .button:hover .icon {
+    width: calc(100% - 0.6rem);
+   }
+   
+   .button:hover .shere {
+    width: calc(100% - 0.6rem);
+    display: none;
+   }
+   
+   .button .icon-shere {
+    color: #f2295b;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: none;
+   }
+   
+   .button:hover .icon .icon-shere {
+    display: flex;
+   }
+   
+
+
+@media (max-width:360px) {
+    .womancardSection_1{
+    background-color:whitesmoke;
+    width:100%;
+    height:420px;
+    
+}
+
+.womancard_1{
+    background-color:mintcream;
+    width:50%;
+    height:450px;
+    float: left;
+    margin: 0px;
+}
+.womancard_2{
+    background-color:mintcream;
+    width:50%;
+    height:400px;
+    float: left;
+    margin: 0px;
+}
+.womancard_3{
+    background-color:mintcream;
+    width:50%;
+    height:400px;
+    float: left;
+    margin: 0px;
+}
+.womancard_4{
+    background-color:mintcream;
+    width:50%;
+    height:400px;
+    float: left;
+    margin: 0px;
+}
+.womenCurrentprize{
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding-top: 10px;
+}
+h1{
+    font-size:1rem;
+}
+img{
+    width:100%;
+    height:200px;
+
+}
+.womenoffer_1{
+    font-size:0.8rem;
+    font-weight: bold;
+}
+
+    
+}
+
+@media (max-width:375px) {
+    .womancardSection_1{
+    background-color:whitesmoke;
+    width:100%;
+    height:420px;
+    
+}
+
+.womancard_1{
+    background-color:mintcream;
+    width:50%;
+    height:400px;
+    float: left;
+    margin: 0px;
+}
+.womancard_2{
+    background-color:mintcream;
+    width:50%;
+    height:400px;
+    float: left;
+    margin: 0px;
+}
+.womancard_3{
+    background-color:mintcream;
+    width:50%;
+    height:400px;
+    float: left;
+    margin: 0px;
+}
+.womancard_4{
+    background-color:mintcream;
+    width:50%;
+    height:400px;
+    float: left;
+    margin: 0px;
+}
+.womenCurrentprize{
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding-top: 10px;
+}
+h1{
+    font-size:1rem;
+}
+img{
+    width:100%;
+    height:200px;
+
+}
+.womenoffer_1{
+    font-size:0.8rem;
+    font-weight: bold;
+}
+
+    
+}
+
+@media (max-width:414px) {
+    .womancardSection_1{
+    background-color:whitesmoke;
+    width:100%;
+    height:420px;
+    
+}
+
+.womancard_1{
+    background-color:mintcream;
+    width:50%;
+    height:400px;
+    float: left;
+    margin: 0px;
+}
+.womancard_2{
+    background-color:mintcream;
+    width:50%;
+    height:400px;
+    float: left;
+    margin: 0px;
+}
+.womancard_3{
+    background-color:mintcream;
+    width:50%;
+    height:400px;
+    float: left;
+    margin: 0px;
+}
+.womancard_4{
+    background-color:mintcream;
+    width:50%;
+    height:400px;
+    float: left;
+    margin: 0px;
+}
+.womenCurrentprize{
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding-top: 10px;
+}
+h1{
+    font-size:1rem;
+}
+img{
+    width:100%;
+    height:200px;
+
+}
+.womenoffer_1{
+    font-size:0.8rem;
+    font-weight: bold;
+}
+
+    
+}
+
+

@@ -1,0 +1,195 @@
+.homecardSection_1{
+  background-color:whitesmoke;
+  width:100%;
+  height:250px;
+  /* display: flex; */
+}
+.homecard_1{
+  background-color:whitesmoke;
+  width:22%;
+  height:250px;
+  float: left;
+  margin: 10px;
+  
+}
+.homecard_2{
+  background-color:whitesmoke;
+  width:22%;
+  height:250px;
+  float: left;
+  margin: 10px;
+}
+.homecard_3{
+  background-color:whitesmoke;
+  width:22%;
+  height:250px;
+  float: left;
+  margin: 10px;
+}
+.homecard_4{
+  background-color:whitesmoke;
+  width:22%;
+  height:250px;
+  float: left;
+  margin: 10px;
+}
+
+img{
+  width:100%;
+  height:250px;
+
+}
+.imgoheder.carlolseimag{
+  width:100%;
+  height: 350px;
+}
+
+@media (max-width:360px) {
+  .homecardSection_1{
+  background-color:whitesmoke;
+  width:100%;
+  height:200px;
+  
+}
+
+.homecard_1{
+  background-color:whitesmoke;
+  width:50%;
+  height:200px;
+  float: left;
+  margin: 0px;
+}
+.homecard_2{
+  background-color:whitesmoke;
+  width:50%;
+  height:200px;
+  float: left;
+  margin: 0px;
+}
+.homecard_3{
+  background-color:whitesmoke;
+  width:50%;
+  height:200px;
+  float: left;
+  margin: 0px;
+}
+.homecard_4{
+  background-color:whitesmoke;
+  width:50%;
+  height:200px;
+  float: left;
+  margin: 0px;
+}
+
+img{
+  width:100%;
+  height:200px;
+
+}
+.imgoheder .carlolseimag{
+  width:100%;
+  height: 200px;
+}
+
+  
+}
+
+@media (max-width:375px) {
+  .homecardSection_1{
+  background-color:whitesmoke;
+  width:100%;
+  height:200px;
+  
+}
+
+.homecard_1{
+  background-color:whitesmoke;
+  width:50%;
+  height:200px;
+  float: left;
+  margin: 0px;
+}
+.homecard_2{
+  background-color:whitesmoke;
+  width:50%;
+  height:200px;
+  float: left;
+  margin: 0px;
+}
+.homecard_3{
+  background-color:whitesmoke;
+  width:50%;
+  height:200px;
+  float: left;
+  margin: 0px;
+}
+.homecard_4{
+  background-color:whitesmoke;
+  width:50%;
+  height:200px;
+  float: left;
+  margin: 0px;
+}
+
+img{
+  width:100%;
+  height:200px;
+
+}
+.imgoheder .carlolseimag{
+  width:100%;
+  height: 200px;
+}
+
+  
+}
+
+@media (max-width:414px) {
+  .homecardSection_1{
+  background-color:whitesmoke;
+  width:100%;
+  height:200px;
+  
+}
+
+.homecard_1{
+  background-color:whitesmoke;
+  width:50%;
+  height:200px;
+  float: left;
+  margin: 0px;
+}
+.homecard_2{
+  background-color:whitesmoke;
+  width:50%;
+  height:200px;
+  float: left;
+  margin: 0px;
+}
+.homecard_3{
+  background-color:whitesmoke;
+  width:50%;
+  height:200px;
+  float: left;
+  margin: 0px;
+}
+.homecard_4{
+  background-color:whitesmoke;
+  width:50%;
+  height:200px;
+  float: left;
+  margin: 0px;
+}
+
+img{
+  width:100%;
+  height:200px;
+
+}
+.imgoheder .carlolseimag{
+  width:100%;
+  height: 200px;
+}
+
+  
+}
